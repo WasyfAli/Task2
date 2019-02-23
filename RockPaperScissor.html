@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width">
+		<title>Rock Paper Scissor Game</title>
+		<script src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css">
+	</head>
+		<body> 
+			<div class="heading"><h1 align="center">Welcome to Rock, Paper, Scissor</h1></div>
+			<br><div class="heading"><h1 align="center">Computer</h1></div>
+
+			<TABLE BORDER=0 align="center" style="height:200px;width:500px;text-align:center;font-size:50px" id="gam">
+ 			<TR>
+				<TD width=50%> </TD>
+                                <TD rowspan=2 id="ww"></TD>
+			        <TD width="50%"></TD>
+                        </TR>
+
+				<TR>
+  				<TD id="i"></TD>
+				</TR>
+				<TR>
+				<TD id="g"></TD>
+ 			</TR>
+ 			</Table>
+			<br><div class="heading"><h1 align="center">Player</h1></div>
+			<hr style="margin:30px">
+			<TABLE  align="center" style="border-collapse:collapse" cellpadding=0 >
+			<TR>
+   			<TD>
+				<input type="image" src="paper.png" class="b"  onclick="g(2)"></TD>
+  			<TD>
+				<input type="image" src="rock.png" class="b" onclick="g(0)"></TD>
+  			<TD>
+				<input type="image" src="scissors.png" class="b" onclick="g(1)"></TD>
+			<TD>
+                                <input type="image" src="spock.png" class="b" onclick="g(3)"></TD>
+			<TD>
+                                <input type="image" src="lizard.png" class="b" onclick="g(4)"></TD>
+
+
+
+			</TR>			
+			</TABLE>
+
+		</body>	
+</html>
